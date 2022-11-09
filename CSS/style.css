@@ -46,6 +46,15 @@ p {
   font-size: 1em;
   font-weight: 400;
 }
+a {
+  font-family: 'Inter', sans-serif;
+  color: #2232DD;
+  text-decoration: none; /* No underlining */
+}
+a:hover {
+  color: #FBEBED;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
 
 img {
   width: 100%;
