@@ -100,8 +100,8 @@ keep button rule at the end of css
   background-color: #FBEBED;
   color: #2232DD; /* needed to override the default link color */
   font-weight: 600;
-  padding: 10px;
-  border-radius: 3px;
+  padding: 12px;
+  border-radius: 100px;
   border-bottom: 1.5px solid #ffffff; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
