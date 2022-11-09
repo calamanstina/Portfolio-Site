@@ -106,7 +106,7 @@ keep button rule at the end of css
   transition: 0.2s opacity;
 }
 .button:visited {
-  background-color: #0F1C9F;
+  background-color: #2232DD;
   color: #ffffff;
   opacity: 1; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
