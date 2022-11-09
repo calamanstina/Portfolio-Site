@@ -52,10 +52,17 @@ a {
   font-family: 'Inter', sans-serif;
   color: #2232DD;
   text-decoration: none; /* No underlining */
+  font-weight: 400;
+}
+a:visited { /* visited link */
+  color: #000000;
 }
 a:hover {
   color: #FBEBED;
   text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+  color: #994c30;
 }
 li {
   font-family: 'Inter', sans-serif;
