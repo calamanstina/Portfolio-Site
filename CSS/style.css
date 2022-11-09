@@ -55,14 +55,14 @@ a {
   font-weight: 400;
 }
 a:visited { /* visited link */
-  color: #000000;
+  color: #FBEBED;
 }
 a:hover {
-  color: #FBEBED;
+  color: #000000;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:active { /* selected link */
-  color: #994c30;
+  color: #FBEBED;
 }
 li {
   font-family: 'Inter', sans-serif;
