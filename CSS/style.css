@@ -102,6 +102,6 @@ keep button rule at the end of css
   font-weight: 600;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 1.5px solid #DABFC2; /* width of the border, type, color */
+  border-bottom: 1.5px solid #ffffff; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
