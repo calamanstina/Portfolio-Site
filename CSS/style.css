@@ -89,6 +89,9 @@ li {
 img {
   width: 100%;
 }
+.img.bio {
+  width: 20%;
+}
 
 /*
 Button note:
