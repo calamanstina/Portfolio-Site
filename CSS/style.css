@@ -117,3 +117,18 @@ keep button rule at the end of css
   opacity: 1; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
+
+/*
+Contact Button
+*/
+
+.button.contact {
+  background-color: transparent;
+  color: #2232DD;
+  text-transform: uppercase;
+  border: 2px solid #2232DD;
+}
+.button.contact:hover {
+  background-color: #2232DD;
+  color: #ffffff;
+}
