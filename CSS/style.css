@@ -97,8 +97,7 @@ keep button rule at the end of css
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #ffffff;
-  border-color: #2232DD;
+  background-color: #FBEBED;
   color: #2232DD; /* needed to override the default link color */
   font-weight: 600;
   padding: 12px;
@@ -107,6 +106,8 @@ keep button rule at the end of css
   transition: 0.2s opacity;
 }
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  background-color: #2232DD;
+  color: #ffffff;
+  opacity: 1; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
