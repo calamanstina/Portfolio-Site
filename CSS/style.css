@@ -8,3 +8,7 @@ Tertiary color (pink): #FBEBED;
 body {
       background-color: lightgrey;
 }
+
+body {
+    font-family: 'Archivo', sans-serif;
+}    
