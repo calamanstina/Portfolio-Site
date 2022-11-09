@@ -46,7 +46,7 @@ h4 {
 p {
   font-family: 'Inter', sans-serif;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 300;
 }
 a {
   font-family: 'Inter', sans-serif;
@@ -56,6 +56,11 @@ a {
 a:hover {
   color: #FBEBED;
   text-decoration: underline; /* Underlining when hovering over a link */
+}
+li {
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 img {
