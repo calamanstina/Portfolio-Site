@@ -20,6 +20,7 @@ body {
 header {
   background-color: #ff44c4;
   padding: 10px;
+  margin: 10px;
 }
 
 h1, h2, h3, h4 {
