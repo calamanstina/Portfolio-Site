@@ -175,3 +175,8 @@ Contact Button
 .logo {
   max-width: 250px;
 }
+header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+}
