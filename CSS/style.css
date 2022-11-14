@@ -204,3 +204,20 @@ nav > ul > li > a {
 main {
   padding-top: 133px;
 }
+footer {
+  background-color: #ffffff;
+  text-align: left;
+  padding: 10px 0;
+}
+footer > ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer > ul > li {
+  display:inline-block;
+}
+footer > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
