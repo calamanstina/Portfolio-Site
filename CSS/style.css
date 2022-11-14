@@ -91,7 +91,10 @@ img {
   width: 100%;
 }
 .img.bio {
-  width: 20%;
+  max-width: 20%;
+}
+.contact.svg {
+  max-width: 20px;
 }
 
 /*
