@@ -180,3 +180,7 @@ header {
   text-align: center;
   padding: 10px 0;
 }
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
