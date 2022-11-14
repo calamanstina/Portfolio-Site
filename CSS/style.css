@@ -213,11 +213,6 @@ footer > ul {
   list-style-type: none;
   padding: 0;
 }
-footer > ul > li {
+footer > ul > li > svg {
   display: inline-block;
-}
-footer > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
 }
