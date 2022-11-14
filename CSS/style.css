@@ -176,7 +176,7 @@ Contact Button
   max-width: 250px;
 }
 header {
-  background-color: #ffe4c4;
+  background-color: #ffffff;
   text-align: center;
   box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.3);
   padding: 10px 0;
@@ -196,7 +196,7 @@ nav > ul > li > a {
   font-weight: 700;
 }
 #hero {
-  background-color: #ffe4c4;
+  background-color: #FBEBED;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
