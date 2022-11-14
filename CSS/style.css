@@ -149,9 +149,9 @@ Contact Button
 */
 .button.contact {
   background-color: transparent;
-  color: #2232DD;
+  color: #ffffff;
   text-transform: uppercase;
-  border: 2px solid #2232DD;
+  border: 2px solid #ffffff;
 }
 
 .button.contact:hover {
@@ -205,9 +205,10 @@ main {
   padding-top: 133px;
 }
 footer {
-  background-color: #ffffff;
+  background-color: #1A1818;
   text-align: left;
   padding: 10px 0;
+  color: #ffffff;
 }
 footer > ul {
   list-style-type: none;
