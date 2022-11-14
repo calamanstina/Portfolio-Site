@@ -178,7 +178,7 @@ Contact Button
 header {
   background-color: #ffe4c4;
   text-align: center;
-  webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.3);
   padding: 10px 0;
   position: relative;
 }
