@@ -19,7 +19,10 @@ body {
 }
 header {
   background-color: #ff44c4;
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
   margin: 10px;
 }
 
