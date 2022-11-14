@@ -158,3 +158,9 @@ Contact Button
   background-color: #2232DD;
   color: #ffffff;
 }
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
