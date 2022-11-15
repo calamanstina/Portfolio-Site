@@ -241,7 +241,15 @@ Medium devices (640px and larger)
 .col-md-6 {
   width: 50%;
 }
-
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
