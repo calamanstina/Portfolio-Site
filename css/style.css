@@ -221,6 +221,10 @@ footer > ul {
 footer > ul > li {
   display:inline-block;
 }
+.social li {
+  display: inline-block;
+}
+
 /* ==============================
 Animation on Index Page
 ================================= */
@@ -233,10 +237,10 @@ Animation on Index Page
   animation: 4s color-change infinite alternate linear;
 }
 @keyframes car-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {transform: translate(0px,0px);}
+  to {transform: translate(200px 0px);}
 }
-.car {
+.Car {
   animation-duration: 30s;
   animation-name: car-move;
   animation-iteration-count: infinite;
