@@ -214,13 +214,6 @@ footer {
   padding: 10px 0;
   color: #ffffff;
 }
-footer > ul {
-  list-style-type: none;
-  padding: 0;
-}
-footer > ul > li {
-  display:inline-block;
-}
 .social li {
   display: inline-block;
 }
@@ -241,7 +234,7 @@ Animation on Index Page
   to {transform: translate(80px 0px);}
 }
 .car {
-  animation-duration: 30s;
+  animation-duration: 20s;
   animation-name: car-move;
   animation-iteration-count: infinite;
   animation-direction: alternate;
