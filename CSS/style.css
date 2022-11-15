@@ -203,6 +203,9 @@ nav > ul > li > a {
   width: 100%;
   text-align: center;
 }
+#hero span {
+  display: block;
+}
 main {
   padding-top: 99px;
 }
