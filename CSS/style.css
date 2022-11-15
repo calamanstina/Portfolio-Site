@@ -113,7 +113,8 @@ keep button rule at the end of css
   color: #ffffff;
   /* needed to override the default link color */
   font-weight: 600;
-  padding: 12px;
+  text-decoration: none;
+  padding: 10px;
   border-radius: 100px;
   border-bottom: 1.5px solid #ffffff;
   /* width of the border, type, color */
@@ -124,7 +125,6 @@ keep button rule at the end of css
   background-color: #2232DD;
   color: #ffffff;
   opacity: 1;
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
@@ -132,7 +132,6 @@ keep button rule at the end of css
   background-color: #0F1C9F;
   color: #ffffff;
   opacity: 1;
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
@@ -140,10 +139,8 @@ keep button rule at the end of css
   background-color: #0F1C9F;
   color: #ffffff;
   opacity: 1;
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
-
 /*
 Contact Button
 */
@@ -255,6 +252,11 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* ==============================
 X-large devices (1440px or larger)
