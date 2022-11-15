@@ -243,6 +243,13 @@ Animation on Index Page
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
