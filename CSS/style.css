@@ -94,6 +94,8 @@ li {
 
 img {
   width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 .img.bio {
   max-width: 250px;
