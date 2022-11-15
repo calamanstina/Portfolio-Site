@@ -221,11 +221,16 @@ footer > ul {
 footer > ul > li {
   display:inline-block;
 }
-
+/* ==============================
+Animation on Index Page
+================================= */
 @keyframes color-change {
   0% {fill: #edc655;}
   50% {fill: #fcffad;}
   100% {fill: #f76414;}
+}
+.sun {
+  animation: 4s color-change infinite alternate linear;
 }
 
 /* ==============================
