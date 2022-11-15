@@ -231,7 +231,7 @@ Animation on Index Page
 }
 @keyframes car-move {
   from {transform: translate(0px,0px);}
-  to {transform: translate(80px 0px);}
+  to {transform: translate(200px 0px);}
 }
 .car {
   animation-duration: 20s;
@@ -239,6 +239,27 @@ Animation on Index Page
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
+}
+@keyframes wave-move {
+  from {transform: translate(0,0px);}
+  to {transform: translate(10px,0px);}
+}
+.top-wave {
+  animation: 3s wave-move infinite alternate linear;
+}
+@keyframes wave-middle-move {
+  from {transform: translate(0,0px);}
+  to {transform: translate(50px,0px);}
+}
+.middle-wave {
+  animation: 3s wave-middle-move infinite alternate linear;
+}
+@keyframes wave-move-reverse {
+  from {transform: translate(0x,0px);}
+  to {transform: translate(-30px, 0px);}
+}
+.bottom-wave {
+  animation: 5s wave-move-reverse infinite alternate linear;
 }
 /* ==============================
 Medium devices (640px and larger)
