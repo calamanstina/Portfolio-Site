@@ -238,9 +238,9 @@ Animation on Index Page
 }
 @keyframes car-move {
   from {transform: translate(0px,0px);}
-  to {transform: translate(200px 0px);}
+  to {transform: translate(80px 0px);}
 }
-.Car {
+.car {
   animation-duration: 30s;
   animation-name: car-move;
   animation-iteration-count: infinite;
