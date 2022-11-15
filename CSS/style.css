@@ -229,14 +229,14 @@ Animation on Index Page
   50% {fill: #fcffad;}
   100% {fill: #f76414;}
 }
-.sun {
+.ensuring {
   animation: 4s color-change infinite alternate linear;
 }
-@keyframes cloud-move {
+@keyframes car-move {
   from {transform: translate(0,50px);}
   to {transform: translate(200px,50px);}
 }
-.cloud-front {
+.car {
   animation-duration: 30s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;
