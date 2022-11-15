@@ -222,6 +222,11 @@ footer > ul > li {
   display:inline-block;
 }
 
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
