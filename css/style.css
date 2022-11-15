@@ -224,10 +224,18 @@ Animation on Index Page
 @keyframes color-change {
   0% {fill: #edc655;}
   50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  100% {fill: #f7c0d4;}
 }
-.ensuring {
+.los {
   animation: 4s color-change infinite alternate linear;
+}
+@keyframes color-change-2 {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f37d57;}
+}
+.angeles {
+  animation: 4s color-change-2 infinite alternate linear;
 }
 @keyframes car-move {
   from {transform: translate(0px,0px);}
