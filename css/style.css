@@ -248,7 +248,7 @@ nav>ul>li>a {
 }
 
 main {
-  padding-top: 62px;
+  padding-top: 53px;
 }
 
 footer {
@@ -372,6 +372,10 @@ Medium devices (640px and larger)
 
   .logo {
     max-width: 250px;
+  }
+
+  main {
+    padding-top: 65px;
   }
 
   nav {
