@@ -5,7 +5,6 @@ Secondary color (white): #ffffff;
 Tertiary color (black): #1A1818;
 Tertiary color (pink): #FBEBED;
 */
-
 * {
   box-sizing: border-box;
 }
@@ -22,7 +21,6 @@ body {
   /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
 }
-
 
 h1, h2, h3, h4 {
   line-height: 1.4;
@@ -62,7 +60,7 @@ p {
   font-weight: 300;
 }
 
- a {
+a {
   font-family: 'Inter', sans-serif;
   color: #2232DD;
   text-decoration: none;
@@ -97,9 +95,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .img.bio {
   max-width: 250px;
 }
+
 .contact.svg {
   max-width: 20px;
 }
@@ -143,6 +143,7 @@ keep button rule at the end of css
   opacity: 1;
   text-decoration: none;
 }
+
 /*
 Contact Button
 */
@@ -159,40 +160,52 @@ Contact Button
 }
 
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
+
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
 }
+
 #hero h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
+
 .logo {
   max-width: 150px;
 }
+
 header {
   background-color: #ffffff;
   text-align: ;
   box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.3);
-  padding: 10px 0;
+  padding: 10px 0 4px;
   position: fixed;
   width: 100%;
 }
-nav > ul {
+
+nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
+
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
+
 .navtoggle li .icon {
   position: absolute;
   right: 0;
@@ -200,12 +213,14 @@ nav > ul {
   font-size: 20px;
   padding-right: 0;
 }
-nav > ul > li > a {
+
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #2232DD;
 }
+
 #hero {
   background-color: #FBEBED;
   padding: 10px 0;
@@ -213,18 +228,22 @@ nav > ul > li > a {
   width: 100%;
   text-align: center;
 }
+
 #hero span {
   display: block;
 }
+
 main {
   padding-top: 99px;
 }
+
 footer {
   background-color: #1A1818;
   text-align: left;
   padding: 10px 0;
   color: #ffffff;
 }
+
 .social li {
   display: inline-block;
 }
@@ -233,25 +252,51 @@ footer {
 Animation on Index Page
 ================================= */
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f7c0d4;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f7c0d4;
+  }
 }
+
 .los {
   animation: 4s color-change infinite alternate linear;
 }
+
 @keyframes color-change-2 {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f37d57;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f37d57;
+  }
 }
+
 .angeles {
   animation: 4s color-change-2 infinite alternate linear;
 }
+
 @keyframes car-move {
-  from {transform: translate(0px,0px);}
-  to {transform: translate(200px 0px);}
+  from {
+    transform: translate(0px, 0px);
+  }
+
+  to {
+    transform: translate(200px 0px);
+  }
 }
+
 .car {
   animation-duration: 20s;
   animation-name: car-move;
@@ -259,27 +304,49 @@ Animation on Index Page
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 @keyframes wave-move {
-  from {transform: translate(0,0px);}
-  to {transform: translate(10px,0px);}
+  from {
+    transform: translate(0, 0px);
+  }
+
+  to {
+    transform: translate(10px, 0px);
+  }
 }
+
 .top-wave {
   animation: 3s wave-move infinite alternate linear;
 }
+
 @keyframes wave-middle-move {
-  from {transform: translate(0,0px);}
-  to {transform: translate(50px,0px);}
+  from {
+    transform: translate(0, 0px);
+  }
+
+  to {
+    transform: translate(50px, 0px);
+  }
 }
+
 .middle-wave {
   animation: 3s wave-middle-move infinite alternate linear;
 }
+
 @keyframes wave-move-reverse {
-  from {transform: translate(0x,0px);}
-  to {transform: translate(-30px, 0px);}
+  from {
+    transform: translate(0x, 0px);
+  }
+
+  to {
+    transform: translate(-30px, 0px);
+  }
 }
+
 .bottom-wave {
   animation: 5s wave-move-reverse infinite alternate linear;
 }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -288,55 +355,69 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
+
   .logo {
     max-width: 250px;
   }
+
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
   }
-  nav > ul > li {
+
+  nav>ul>li {
     display: inline-block;
   }
+
   .navtoggle li:not(:last-child) {
-  display: inline-block;
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav>ul {
+    margin: 1em 0;
+  }
 }
-.navtoggle li:last-child {
-  display: none;
-}
-nav > ul {
-  margin: 1em 0;
-}
-}
+
 .col-md-6 {
   width: 50%;
 }
+
 [class*="col-"] {
   float: left;
   padding: 10px;
 }
+
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
-#about-page h3 { margin-top: 0;}
+
+#about-page h3 {
+  margin-top: 0;
+}
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
+
 .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+@media only screen and (min-width: 1440px) {}
+
 .container {
   max-width: 1420px;
   margin-left: auto;
