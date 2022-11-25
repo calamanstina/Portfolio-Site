@@ -186,7 +186,9 @@ nav > ul {
   list-style-type: none;
   padding: 0;
 }
-
+.navtoggle li:not(:last-child) {
+  display: none;
+}
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
