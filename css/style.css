@@ -185,6 +185,7 @@ header {
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .navtoggle li:not(:last-child) {
   display: none;
@@ -303,6 +304,9 @@ Medium devices (640px and larger)
 }
 .navtoggle li:last-child {
   display: none;
+}
+nav > ul {
+  margin: 1em 0;
 }
 }
 .col-md-6 {
