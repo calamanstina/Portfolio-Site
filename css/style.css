@@ -221,7 +221,7 @@ nav>ul {
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #FBEBED;
+  border-top: 1px solid #fbebed;
 }
 
 .navtoggle.responsive li:last-child  {
@@ -626,7 +626,7 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
-  .navtoggle li:last-child {
+  .navtoggle li:onclick{
     display: none;
   }
 
