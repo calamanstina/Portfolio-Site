@@ -197,6 +197,7 @@ nav > ul {
   right: 0;
   top: 2px;
   font-size: 20px;
+  padding-right: 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
