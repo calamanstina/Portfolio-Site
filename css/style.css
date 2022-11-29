@@ -51,7 +51,7 @@ h4 {
   font-family: 'Archivo', sans-serif;
   font-size: 1.325em;
   font-weight: 400;
-  color: #1A1818;
+  color: #ffffff;
 }
 
 p {
@@ -101,7 +101,7 @@ img {
 }
 
 .contact.svg {
-  max-width: 20px;
+  max-width: 32px;
 }
 
 /*
@@ -675,6 +675,17 @@ Medium devices (640px and larger)
   #about-page h3 {
     margin-top: 0;
   }
+  .column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
   /* ==============================
 Large devices (1024px or larger)
