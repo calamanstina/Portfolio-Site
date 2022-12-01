@@ -48,6 +48,7 @@
 
   <main>
     <div id="hero">
+      <div class="home">
       <div class="container">
         <h2>Hi, I'm Christina. I'm a UI/UX Designer. I translate high-level objectives into user-centric design, ensuring a seamless and visually aesthetic experience.</h2>
         <div></div>
@@ -59,21 +60,17 @@
     <div id="work"><!-- work section -->
       <div class="container">
         <h2>My Work</h2>
-        <div class="row">
-          <div class="column col-md-6 col-lg-7">
-            <picture><!-- open row that holds (2) columns for project -->
-              <source srcset="img/Artbase/artbase@2.jpg" media="(max-width:767px)">
-              <img src="img/Artbase/artbase@2.jpg" alt="Artbase cover image">
-            </picture>
-          </div><!-- end first column -->
-          <div class="column col-md-6 col-lg-5">
-            <h3>Artbase</h3><!-- heading for the project -->
-            <p><!-- open paragraph -->
-              A mobile art database for everyone
-            </p><!-- end paragraph -->
-            <a href="artbase.html" class="button">Read more</a><!-- button or link label -->
-          </div><!-- end second column -->
-        </div>
+	<div class="cover">
+		<img class="cover__img" src="img/Artbase/Artbase@2.jpg" alt="Artbase cover">
+		<div class="cover__overlay image__overlay--primary">
+			<div class="cover__title">Artbase</div>
+			<p class="cover__description">
+        A mobile art database for everyone
+      <a href="artbase.html" class="button">Read more</a>
+			</p>
+		</div>
+	</div>
+
 
         <div class="row">
           <div class="column col-md-6 col-lg-7">
