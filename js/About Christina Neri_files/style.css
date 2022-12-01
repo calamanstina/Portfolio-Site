@@ -36,8 +36,8 @@ h1 {
 h2 {
   font-family: 'Archivo', sans-serif;
   font-size: 1.953em;
-  font-weight: 500;
-  color: #1A1818;
+  font-weight: 700;
+  color: #2232DD;
 }
 
 h3 {
@@ -236,7 +236,7 @@ nav>ul>li>a {
 }
 
 #hero {
-  background-image: linear-gradient(to bottom, #2232DD, #EA85EC, #FBEBED, #ffffff 105%);
+  background-image: linear-gradient(to right, #FBEBED, #EA85EC, #0f0c29 20%);
   padding: 40px 0px 0px 0px;
   display: inline-block;
   width: 100%;
@@ -682,13 +682,6 @@ Medium devices (640px and larger)
   .column {
   float: left;
   width: 33.33%;
-}
-#hero {
-  background-image: linear-gradient(to bottom, #2232DD, #EA85EC, #FBEBED, #ffffff 105%);
-  padding: 40px 350px 0px 350px;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
 }
 
 /* Clear floats after the columns */
