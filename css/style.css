@@ -172,6 +172,7 @@ Contact Button
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
+  border-top: 1px solid #4a4a4a;
 }
 
 #hero h2 {
@@ -268,7 +269,7 @@ footer a {
 
 .cover {
 	position: relative;
-	width: 400px;
+	width: 600px;
 }
 
 .cover__img {
@@ -326,6 +327,15 @@ footer a {
   text-align: center;
   color: #000;
 }
+
+
+  #grid-col {
+    grid-template-columns: 100%;
+  }
+
+  div.cell {
+    padding: 10px;
+  }
 
 /* ==============================
 Loading page animation
@@ -740,10 +750,12 @@ Medium devices (640px and larger)
   #about-page h3 {
     margin-top: 0;
   }
+
   .column {
   float: left;
   width: 33.33%;
 }
+
 #hero .home{
   background-image: linear-gradient(to bottom, #2232DD, #EA85EC, #FBEBED, #ffffff 105%);
   padding: 40px 350px 0px 350px;
@@ -752,23 +764,31 @@ Medium devices (640px and larger)
   text-align: center;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+/* (A) CONTAINER */
+#grid-col {
+  /* (A1) GRID LAYOUT */
+  display: grid;
+  float: auto;
+
+  /* (A2) SPECIFY COLUMNS */
+  grid-template-columns: auto auto;
 }
 
+/* (B) GRID CELLS */
+div.cell {
+  padding: 10px;
+}
   /* ==============================
 Large devices (1024px or larger)
 ================================= */
-  @media only screen and (min-width: 1024px) {}
+  @media only screen and (min-width: 1024px) {
 
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+
 
   /* ==============================
 X-large devices (1440px or larger)
