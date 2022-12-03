@@ -61,34 +61,40 @@
       <div id="work"><!-- work section -->
         <div class="container">
           <h2>My Work</h2>
-          <div id="grid-col">
-            <div class="cell">
-              <!-- artbase section -->
-              <div class="cover">
-                <img class="cover__img" src="img/Artbase/Artbase@2.jpg" alt="Artbase">
-                <div class="cover__overlay cover__overlay--primary">
-                  <div class="cover__title">Artbase</div>
-                  <p class="cover__description">
-                    A mobile art database for everyone
-                  <div> <a href="artbase.html" class="button">Read more</a></div>
-                  </p>
-                </div>
-              </div>
+          <div class="row">
+            <div class="column col-md-6 col-lg-7">
+              <picture>
+                <!-- open row that holds (2) columns for project -->
+                <source srcset="img/Artbase/artbase@2.jpg" media="(max-width:767px)">
+                <img src="img/Artbase/artbase@2.jpg" alt="Artbase app">
+              </picture>
             </div><!-- end first column -->
-            <!-- Suez section -->
-            <div class="cell">
-              <div class="cover">
-                <img class="cover__img" src="img/Suez/suez@2.jpg" alt="Suez">
-                <div class="cover__overlay cover__overlay--primary">
-                  <div class="cover__title">Suez</div>
-                  <p class="cover__description">
-                    A a quick one-stop-shop for all your favorite homegoods
-                  <div> <a href="suez.html" class="button">Read more</a> </div>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div><!-- end second column -->
+            <div class="column col-md-6 col-lg-5">
+              <h3>Artbase</h3><!-- heading for the project -->
+              <p>
+                <!-- open paragraph -->
+                A mobile art database for everyone
+              </p><!-- end paragraph -->
+              <a href="artbase.html" class="button">Read more</a><!-- button or link label -->
+            </div><!-- end second column -->
+          </div>
+
+          <div class="row">
+            <div class="column col-md-6 col-lg-7">
+              <picture>
+                <source srcset="img/Suez/suez@2.jpg" media="(max-width:767px)">
+                <img src="img/suez/suez@2.jpg" alt="Suez App">
+              </picture>
+            </div><!-- end first column -->
+            <div class="column col-md-6 col-lg-5">
+              <h3>Suez</h3><!-- heading for the project -->
+              <p>
+                <!-- open paragraph -->
+                A a quick one-stop-shop for all your favorite homegoods
+              </p><!-- end paragraph -->
+              <a href="suez.html" class="button">Read more</a><!-- button or link label -->
+            </div><!-- end second column -->
+          </div><!-- end row that holds (2) columns for project -->
 
           <div class="row">
             <div class="column col-md-6 col-lg-7">

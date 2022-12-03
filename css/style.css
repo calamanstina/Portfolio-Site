@@ -172,7 +172,6 @@ Contact Button
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
-  border-top: 1px solid #4a4a4a;
 }
 
 #hero h2 {
@@ -268,78 +267,8 @@ footer a {
   display: inline-block;
 }
 
-#work .cover {
-  position: relative;
-}
 
-.cover {
-  position: relative;
-  width: 600px;
-}
 
-.cover__img {
-  display: block;
-  width: 100%;
-}
-
-.cover__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.25s;
-}
-
-.cover__overlay--blur {
-  backdrop-filter: blur(5px);
-}
-
-.cover__overlay--primary {
-  background: #ffffff;
-}
-
-.cover__overlay>* {
-  transform: translateY(20px);
-  transition: transform 0.25s;
-}
-
-.cover__overlay:hover {
-  opacity: 90%;
-  background: #ffffff;
-}
-
-.cover__overlay:hover>* {
-  transform: translateY(0);
-}
-
-.cover__title {
-  font-size: 2em;
-  font-weight: bold;
-  color: #000;
-}
-
-.cover__description {
-  font-size: 1.25em;
-  margin-top: 0.25em;
-  text-align: center;
-  color: #000;
-}
-
-#grid-col {
-  grid-template-columns: 100%;
-}
-
-div.cell {
-  padding: 10px;
-}
 
 /* ==============================
 Loading page animation
@@ -749,20 +678,6 @@ Medium devices (640px and larger)
     content: "";
     clear: both;
     display: table;
-  }
-
-  /* (A) CONTAINER */
-  #grid-col {
-    /* (A1) GRID LAYOUT */
-    display: grid;
-    float: auto;
-    /* (A2) SPECIFY COLUMNS */
-    grid-template-columns: auto auto;
-  }
-
-  /* (B) GRID CELLS */
-  div.cell {
-    padding: 10px;
   }
 
   #about-page h3 {
