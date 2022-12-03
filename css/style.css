@@ -97,7 +97,11 @@ img {
 }
 
 .img.bio {
-  max-width: 250px;
+  max-width: 80%;
+  padding: 35px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .contact.svg {
@@ -266,6 +270,7 @@ footer a {
 .social li {
   display: inline-block;
 }
+
 
 
 
@@ -665,6 +670,12 @@ Medium devices (640px and larger)
     margin: 1em 0;
   }
 
+  .img.bio {
+    max-width: 70%;
+    padding: 30px 0px;
+    float: left;
+  }
+
   .col-md-6 {
     width: 50%;
   }
@@ -687,6 +698,11 @@ Medium devices (640px and larger)
   .column {
     float: left;
     width: 33.33%;
+  }
+
+  .column.about {
+    float: left;
+    width: 60%;
   }
 
   #hero .home {
