@@ -255,6 +255,16 @@ main {
   padding-top: 53px;
 }
 
+main .skills {
+  background-color: #FBEBED;
+  width: 100%;
+  border-top: 1px solid #1A1818;
+  border-left: 1px solid #1A1818;
+  border-right: 1px solid #1A1818;
+  border-bottom: 1px solid #1A1818;
+  margin-bottom: 20px;
+}
+
 footer {
   background-color: #1A1818;
   text-align: left;
@@ -270,9 +280,6 @@ footer a {
 .social li {
   display: inline-block;
 }
-
-
-
 
 
 /* ==============================
